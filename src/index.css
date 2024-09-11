@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.hoverBtn {
+  transition:all 0.4s ease 0s !important;
+  cursor: pointer;
+  -webkit-transition:all 0.4s ease 0s !important;
+  -moz-transition:all 0.4s ease 0s !important;
+  -ms-transition:all 0.4s ease 0s !important;
+  -o-transition:all 0.4s ease 0s !important;
+}
+
+.hoverBtn:hover {
+  transform: scale(1.15);
+  overflow: hidden !important;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+}
+
+.hoverImg {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+  -webkit-transition: 0.5s all ease-in-out;
+  -moz-transition: 0.5s all ease-in-out;
+  -ms-transition: 0.5s all ease-in-out;
+  -o-transition: 0.5s all ease-in-out;
+}
+
+.hoverImg:hover {
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+}
+
+.transition-bg {
+  transition: 0.5s all ease-in-out;
+  -webkit-transition: 0.5s all ease-in-out;
+  -moz-transition: 0.5s all ease-in-out;
+  -ms-transition: 0.5s all ease-in-out;
+  -o-transition: 0.5s all ease-in-out;
+}
+
+/* hide scrollbar for chrome, safari and opera */
+.image::-webkit-scrollbar {
+  display: none;
+}
+/* hide scrollbar for IE, edge and firefok */
+.images {
+  -ms-overflow-style: none;
+  scrollbar-width: none ;
+}
