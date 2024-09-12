@@ -10,6 +10,9 @@ export default {
         lightGray: "#f4f6fa",
         orange: "#fa9556",
       },
+      screens: {
+        xs: "320px",
+      },
     },
   },
   plugins: [],

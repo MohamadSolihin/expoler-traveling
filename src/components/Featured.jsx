@@ -69,7 +69,7 @@ export default function Featured() {
             </button>
             <button
               onClick={() => setActive("Car")}
-              className={`rounded-sm flex gap-x-2 items-center justify-center focus:outline-none border-none h-14 lg:w-40 px-4 cursor-pointer ${
+              className={`rounded-sm flex gap-x-2 items-center justify-center focus:outline-none border-none h-14 lg:w-30 px-4 cursor-pointer ${
                 active === "Car" ? "bg-primary text-white" : "bg-white"
               }`}>
               <FaCar size={20} className="lg:block hidden" />
@@ -91,7 +91,7 @@ export default function Featured() {
                 type="text"
                 name=""
                 id=""
-                className="bg-light text-gray shadow border-none outline-none h-14 w-40 px-4 text-left text-base"
+                className="bg-light xs:w-[16.5rem] text-gray shadow border-none outline-none h-14 sm:w-40 px-4 text-left text-base"
                 placeholder="Indonesia"
               />
             </span>
@@ -101,7 +101,7 @@ export default function Featured() {
                 type="text"
                 name=""
                 id=""
-                className="bg-light text-gray shadow border-none outline-none h-14 w-40 px-4 text-left text-base"
+                className="bg-light xs:w-[16.5rem] text-gray shadow border-none outline-none h-14 sm:w-40 px-4 text-left text-base"
                 placeholder="12/25/2024"
               />
             </span>
@@ -111,7 +111,7 @@ export default function Featured() {
                 type="text"
                 name=""
                 id=""
-                className="bg-light text-gray shadow border-none outline-none h-14 w-40 px-4 text-left text-base"
+                className="bg-light xs:w-[16.5rem] text-gray shadow border-none outline-none h-14 sm:w-40 px-4 text-left text-base"
                 placeholder="06/15/2024"
               />
             </span>
@@ -121,7 +121,7 @@ export default function Featured() {
                 type="text"
                 name=""
                 id=""
-                className="bg-light text-gray shadow border-none outline-none h-14 w-40 px-4 text-left text-base"
+                className="bg-light xs:w-[16.5rem] text-gray shadow border-none outline-none h-14 sm:w-40 px-4 text-left text-base"
                 placeholder="3"
               />
             </span>
@@ -131,12 +131,12 @@ export default function Featured() {
                 type="text"
                 name=""
                 id=""
-                className="bg-light text-gray shadow border-none outline-none h-14 w-40 px-4 text-left text-base"
+                className="bg-light xs:w-[16.5rem] text-gray shadow border-none outline-none h-14 sm:w-40 px-4 text-left text-base"
                 placeholder="2"
               />
             </span>
             <span className="flex flex-col gap-4">
-              <button className="bg-primary mx-auto rounded transition-bg shadow h-16 lg:px-10 lg:w-auto w-full outline-none text-white hover:bg-white hover:text-primary cursor-pointer text-base hover:border hover:border-primary">
+              <button className="bg-primary mx-auto xs:w-[16.5rem] sm:w-40 rounded transition-bg shadow h-16 lg:px-10 lg:w-auto w-full outline-none text-white hover:bg-white hover:text-primary cursor-pointer text-base hover:border hover:border-primary">
                 Book Now
               </button>
             </span>
