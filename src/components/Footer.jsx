@@ -149,7 +149,7 @@ export default function Footer() {
       </div>
       <div className="bg-lightGray py-10 flex items-center justify-center">
         <p className="px-3">
-          @ Copyright 2024. All Rights Reserved by M.solihin
+          Creted by M.solihin
         </p>
       </div>
     </footer>
