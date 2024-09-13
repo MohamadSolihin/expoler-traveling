@@ -57,11 +57,11 @@ export default function Blogs() {
           </div>
         </div>
       </section>
-      <section className="flex justify-between max-w-[1200px] mx-auto lg:py-16 my-16 gap-8 overflow-hidden">
-        <img src="/public/logo1.png" alt="" className="rounded-xl" />
-        <img src="/public/logo2.png" alt="" className="rounded-xl" />
-        <img src="/public/logo3.png" alt="" className="rounded-xl" />
-        <img src="/public/logo4.png" alt="" className="rounded-xl" />
+      <section className="flex justify-between max-w-[1200px] mx-auto lg:py-16 my-16  overflow-hidden">
+        <img src="/public/logo1.png" alt="" className="rounded-xl lg:w-auto w-20" />
+        <img src="/public/logo2.png" alt="" className="rounded-xl lg:w-auto w-20" />
+        <img src="/public/logo3.png" alt="" className="rounded-xl lg:w-auto w-20" />
+        <img src="/public/logo4.png" alt="" className="rounded-xl lg:w-auto w-20" />
       </section>
       <section className="relative z-10 lg:py-32 py-16 bg-gradient-to-b from-blue-400 via-teal-300 to-yellow-200 shadow-md">
         <div className="flex flex-col justify-center items-center lg:w-1/2 mx-auto px-3">

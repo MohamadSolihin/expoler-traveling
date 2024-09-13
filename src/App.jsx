@@ -1,6 +1,7 @@
 import Blogs from "./components/Blogs";
 import Discover from "./components/Discover";
 import Featured from "./components/Featured";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Packages from "./components/Packages";
@@ -16,6 +17,7 @@ function App() {
       <Populer />
       <Discover />
       <Blogs />
+      <Footer />
     </>
   );
 }
