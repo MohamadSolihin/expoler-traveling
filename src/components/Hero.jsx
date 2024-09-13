@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="lg:w-3/5 flex items-center justify-end lg:pt-0 pt-10">
           <div className=" overflow-hidden">
             <img
-              src="/public/logo.png"
+              src="./logo.png"
               alt="Deskripsi gambar"
               className="w-full h-full object-cover -mt-9"
             />
