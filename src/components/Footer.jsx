@@ -102,42 +102,42 @@ export default function Footer() {
               <div className="grid grid-cols-3 gap-2 pt-4 cursor-pointer">
                 <div className="overflow-hidden my-0 mx-auto rounded-lg w-full">
                   <img
-                    src="/public/Bhutan City.jpg"
+                    src="./Bhutan City.jpg"
                     alt=""
                     className="rounded-lg w-[90px] h-[90px] box-border hoverImg"
                   />
                 </div>{" "}
                 <div className="overflow-hidden my-0 mx-auto rounded-lg w-full">
                   <img
-                    src="/public/Grece City.jpg"
+                    src="./Grece City.jpg"
                     alt=""
                     className="rounded-lg w-[90px] h-[90px] box-border hoverImg"
                   />
                 </div>{" "}
                 <div className="overflow-hidden my-0 mx-auto rounded-lg w-full">
                   <img
-                    src="/public/Maldive Beach.jpg"
+                    src="./Maldive Beach.jpg"
                     alt=""
                     className="rounded-lg w-[90px] h-[90px] box-border hoverImg"
                   />
                 </div>{" "}
                 <div className="overflow-hidden my-0 mx-auto rounded-lg w-full">
                   <img
-                    src="/public/Paris City.jpg"
+                    src="./Paris City.jpg"
                     alt=""
                     className="rounded-lg w-[90px] h-[90px] box-border hoverImg"
                   />
                 </div>{" "}
                 <div className="overflow-hidden my-0 mx-auto rounded-lg w-full">
                   <img
-                    src="/public/paris.jpg"
+                    src="./paris.jpg"
                     alt=""
                     className="rounded-lg w-[90px] h-[90px] box-border hoverImg"
                   />
                 </div>{" "}
                 <div className="overflow-hidden my-0 mx-auto rounded-lg w-full">
                   <img
-                    src="/public/japan.jpg"
+                    src="./japan.jpg"
                     alt=""
                     className="rounded-lg w-[90px] h-[90px] box-border hoverImg"
                   />

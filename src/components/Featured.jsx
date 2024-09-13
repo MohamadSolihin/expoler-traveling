@@ -155,7 +155,7 @@ export default function Featured() {
             <Card
               amount="1200"
               country="Paris"
-              image="/public/paris.jpg"
+              image="./paris.jpg"
               packages="3"
               rows="2"
             />
@@ -163,14 +163,14 @@ export default function Featured() {
               <Card
                 amount="1900"
                 country="Brazil"
-                image="/public/brazil.jpg"
+                image="./brazil.jpg"
                 packages="8"
                 rows="1"
               />
               <Card
                 amount="1500"
                 country="Japan"
-                image="/public/japan.jpg"
+                image="./japan.jpg"
                 packages="3"
                 rows="1"
               />
@@ -178,7 +178,7 @@ export default function Featured() {
             <Card
               amount="1600"
               country="London"
-              image="/public/london.jpg"
+              image="./london.jpg"
               packages="3"
               rows="2"
             />

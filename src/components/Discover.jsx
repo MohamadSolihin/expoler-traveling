@@ -7,7 +7,7 @@ export default function Discover() {
         <div className="max-w-[1200px] mx-auto flex justify-between py-8 relative">
           <div className="lg:-ml-52 lg:block hidden ">
             <img
-              src="/public/bg-discover.webp"
+              src="./bg-discover.webp"
               width={600}
               // height={400}
               alt=""
@@ -35,7 +35,7 @@ export default function Discover() {
               </div>
               <div className="flex-none w-1/3">
                 <img
-                  src="/public/surf.png"
+                  src="./surf.png"
                   alt="Pantai"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />
@@ -85,7 +85,7 @@ export default function Discover() {
             </div>
           </div>
           <div className="lg:w-1/2">
-            <img src="/public/map.jpg" alt="" />
+            <img src="./map.jpg" alt="" />
           </div>
         </div>
       </section>

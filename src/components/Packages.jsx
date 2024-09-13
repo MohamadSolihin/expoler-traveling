@@ -39,39 +39,39 @@ export default function Packages() {
           </span>
           <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 my-12 relative z-10 cursor-pointer">
             <Card
-              image="/public/Grece City.jpg"
+              image="./Grece City.jpg"
               text="Enjoy The Beauty Place In Grece City"
             />
             <Card
-              image="/public/Maldives beach.jpg"
+              image="./Maldives beach.jpg"
               text="Enjoy The Beauty Place In Maldives beach"
             />
             <Card
-              image="/public/Bhutan City.jpg"
+              image="./Bhutan City.jpg"
               text="Enjoy The Beauty Place In Bhutan City"
             />
             <Card
-              image="/public/Paris City.jpg"
+              image="./Paris City.jpg"
               text="Enjoy The Beauty Place In Paris City"
             />
           </div>
         </div>
         <img
-          src="/public/aa.png"
+          src="./aa.png"
           alt=""
           width={100}
           height={100}
           className="lg:block hidden absolute -top-12 left-0"
         />
         {/* <img
-          src="/public/swimming.png"
+          src="./swimming.png"
           alt=""
           width={150}
           height={150}
           className="lg:block hidden absolute -bottom- left-0"
         /> */}
         <img
-          src="/public/surf.png"
+          src="./surf.png"
           alt=""
           width={300}
           height={300}
@@ -94,27 +94,27 @@ export default function Packages() {
         </div>
         <div className="flex lg:flex-row flex-col gap-y-8 items-center justify-between my-12">
           <span className="flex flex-col items-center">
-            <img src="/public/big-ben.png" alt="" width={100} height={100} />
+            <img src="./big-ben.png" alt="" width={100} height={100} />
             <p>Different Coutries</p>
           </span>
           <span className="flex flex-col items-center">
-            <img src="/public/bus.png" alt="" width={100} height={100} />
+            <img src="./bus.png" alt="" width={100} height={100} />
             <p>Bus Tours</p>
           </span>
           <span className="flex flex-col items-center">
-            <img src="/public/food.png" alt="" width={145} height={145} />
+            <img src="./food.png" alt="" width={145} height={145} />
             <p>Food Tours</p>
           </span>
           <span className="flex flex-col items-center">
-            <img src="/public/sunrise.png" alt="" width={100} height={100} />
+            <img src="./sunrise.png" alt="" width={100} height={100} />
             <p>Summer Rest</p>
           </span>
           <span className="flex flex-col items-center">
-            <img src="/public/boat.png" alt="" width={100} height={100} />
+            <img src="./boat.png" alt="" width={100} height={100} />
             <p>Ship Cruises</p>
           </span>
           <span className="flex flex-col items-center pt-5">
-            <img src="/public/mountain.png" alt="" width={120} height={100} />
+            <img src="./mountain.png" alt="" width={120} height={100} />
             <p>Mountain Tours</p>
           </span>
         </div>

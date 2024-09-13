@@ -3,13 +3,13 @@ import { HiLocationMarker, HiStar } from "react-icons/hi";
 
 export default function Populer() {
   const images = [
-    "/public/Bhutan City.jpg",
-    "/public/Greece City.jpg",
-    "/public/japan.jpg",
-    "/public/Maldives beach.jpg",
-    "/public/Paris City.jpg",
-    "/public/Grece City.jpg",
-    "/public/brazil.jpg",
+    "./Bhutan City.jpg",
+    "./Greece City.jpg",
+    "./japan.jpg",
+    "./Maldives beach.jpg",
+    "./Paris City.jpg",
+    "./Grece City.jpg",
+    "./brazil.jpg",
   ];
 
   const Card = ({ image, text }) => {
@@ -74,19 +74,19 @@ export default function Populer() {
           </span>
           <div className="grid xl:gri-cols-4 md:grid-cols-2 grid-cols-1 gap-6 my-12 relative z-10 cursor-pointer">
             <Card
-              image="/public/Greece City.jpg"
+              image="./Greece City.jpg"
               text="Enjoy The Beauty Place In Greece City"
             />
             <Card
-              image="/public/Maldive Beach.jpg"
+              image="./Maldive Beach.jpg"
               text="Enjoy The Beauty Place In Maldive Beach"
             />
             <Card
-              image="/public/Bhutan City2.jpg"
+              image="./Bhutan City2.jpg"
               text="Enjoy The Beauty Place In Bhutan City"
             />
             <Card
-              image="/public/Paris City2.jpg"
+              image="./Paris City2.jpg"
               text="Enjoy The Beauty Place In Paris City"
             />
           </div>

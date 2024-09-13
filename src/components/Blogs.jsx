@@ -42,26 +42,26 @@ export default function Blogs() {
           </span>
           <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 my-12 relative z-10 cursor-pointer">
             <Card
-              image="/public/Grece City.jpg"
+              image="./Grece City.jpg"
               text="Beauty Place In Greece"
             />
             <Card
-              image="/public/Maldive Beach.jpg"
+              image="./Maldive Beach.jpg"
               text="Beauty Place In Maldives"
             />
-            <Card image="/public/brazil.jpg" text="Beauty Place In Brazil" />
+            <Card image="./brazil.jpg" text="Beauty Place In Brazil" />
             <Card
-              image="/public/Bhutan City.jpg"
+              image="./Bhutan City.jpg"
               text="Beauty Place In Bhutan"
             />
           </div>
         </div>
       </section>
       <section className="flex justify-between max-w-[1200px] mx-auto lg:py-16 my-16  overflow-hidden">
-        <img src="/public/logo1.png" alt="" className="rounded-xl lg:w-auto w-20" />
-        <img src="/public/logo2.png" alt="" className="rounded-xl lg:w-auto w-20" />
-        <img src="/public/logo3.png" alt="" className="rounded-xl lg:w-auto w-20" />
-        <img src="/public/logo4.png" alt="" className="rounded-xl lg:w-auto w-20" />
+        <img src="./logo1.png" alt="" className="rounded-xl lg:w-auto w-20" />
+        <img src="./logo2.png" alt="" className="rounded-xl lg:w-auto w-20" />
+        <img src="./logo3.png" alt="" className="rounded-xl lg:w-auto w-20" />
+        <img src="./logo4.png" alt="" className="rounded-xl lg:w-auto w-20" />
       </section>
       <section className="relative z-10 lg:py-32 py-16 bg-gradient-to-b from-blue-400 via-teal-300 to-yellow-200 shadow-md">
         <div className="flex flex-col justify-center items-center lg:w-1/2 mx-auto px-3">
